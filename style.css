@@ -1,6 +1,7 @@
 /* Remove margens e preenchimentos padrões do navegador */
 html {
     scroll-behavior: smooth;
+    background-color: #09131d;
 }
 
 * {
@@ -160,7 +161,6 @@ html {
     color: rgb(255, 145, 0);
 }
 
-
 /* Estiliza a indicação de scroll */
 .scroll-indicator {
     position: absolute;
@@ -245,6 +245,19 @@ html {
         font-size: 1.5rem;
         margin: 10px 0;
     }
+
+    .content h1 {
+        font-size: 2.3rem;
+    }
+
+    .content h2 {
+        font-size: 1.2rem;
+    }
+
+    #typing-text {
+        font-size: 1.2rem;
+    }
+
 }
 
 /* Estilizando a seção Sobre */
@@ -399,6 +412,7 @@ html {
     }
 
     .sobre-conteudo {
+        font-size: 17px;
         width: 90%;
         margin-top: 20px;
         margin-left: 0%;
@@ -406,6 +420,10 @@ html {
 
     .linha-divisoria {
         opacity: 0;
+    }
+
+    .frase-impacto {
+        font-size: 25px;
     }
 }
 
@@ -665,8 +683,17 @@ html {
 
 @media (max-width: 768px) {
     .skill h3 {
-        font-size: 18px;
+        font-size: 17px;
     }
+
+    .skill p {
+        font-size: 10px;
+    }
+
+    .skills-section h2 {
+        font-size: 32px;
+    }
+
 }
 
 @keyframes fadeIn {
@@ -720,15 +747,15 @@ html {
 }
 
 .footer {
-    background: linear-gradient(to right, #000000, #0f0f0f);
+    background: linear-gradient(to right, #303030, #3e3e3e);
     color: white;
     text-align: center;
     padding: 20px;
     position: relative;
     width: 100%;
     bottom: 0;
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
-    opacity: 0.8;
+    /* box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3); */
+    opacity: 1;
 }
 
 .footer-container {
