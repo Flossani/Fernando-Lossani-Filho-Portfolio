@@ -683,11 +683,11 @@ html {
 
 @media (max-width: 768px) {
     .skill h3 {
-        font-size: 8px;
+        font-size: 3px;
     }
 
     .skill p {
-        font-size: 8px;
+        font-size: 3px;
     }
 
     .skills-section h2 {
