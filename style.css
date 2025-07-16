@@ -104,22 +104,40 @@ html {
     /* font-family: Arial, sans-serif; */
 }
 
+/* Frase "Meu nome é Fernando */
 .content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 50px;
+    font-size: 3rem;
+    margin-bottom: 15px;
+    /* color: rgb(255, 145, 0); */
+
+}
+
+/* Mantendo a frase no lugar no mobile */
+.typing-wrapper {
+    position: relative;
+    display: inline-block;
+    min-height: 1.5em; /* altura mínima para reservar espaço */
+}
+.typing-wrapper::after {
+    content: "Inteligência Artificial.";
+    visibility: hidden;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    white-space: nowrap;
 }
 
 #typing-text {
     font-size: 1.5rem;
     font-weight: bold;
-    min-height: 40px;
+    /* min-height: 40px; */
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid #fff;
     animation: blink 0.8s infinite;
 }
 
-#typing-text{
+/* #typing-text{
     font-size: 1.5rem;
     font-weight: bold;
     min-height: 10px;
