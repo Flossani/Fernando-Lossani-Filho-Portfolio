@@ -1,6 +1,7 @@
 const frases = [
-    "Full Stack.",
-    "Inteligência Artificial."
+    "Back-end.",
+    "Inteligência Artificial.",
+    "Data Analytics."
 ];
 
 const elemento = document.getElementById("typing-text");
