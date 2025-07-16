@@ -1,5 +1,6 @@
 /* Remove margens e preenchimentos padrões do navegador */
 html {
+    font-family: "Quantico", sans-serif;
     scroll-behavior: smooth;
     background-color: #09131d;
 }
@@ -100,7 +101,7 @@ html {
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
 }
 
 .content h1 {
@@ -683,7 +684,7 @@ html {
 
 @media (max-width: 768px) {
     .skill h3 {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .skill p {
