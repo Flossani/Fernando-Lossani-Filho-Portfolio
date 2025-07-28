@@ -502,7 +502,8 @@ html {
 
 /* Imagem do projeto */
 .projetos img {
-    border: 2px solid #0d1d2b;
+    /* border: 2px solid #0d1d2b; */
+    border: 2px solid rgb(255, 145, 0);
     width: 35%;
     height: auto;
     object-fit: cover;
